@@ -21,7 +21,16 @@ public class IncrementoDeNros {
         Scanner in2=new Scanner(System.in);
         System.out.print("Numero Y : ");
         int y= in2.nextInt(); 
-        
+     if(x<y){   
+        for(int i=0;i<y;i++)
+            
+         System.out.print(i+1);}
+            
+        else
+        { 
+            if(y<x){
+            for(int i=y-1;i<x;i++)
+                    System.out.print(i+1);}   
     }
 }     
 }
